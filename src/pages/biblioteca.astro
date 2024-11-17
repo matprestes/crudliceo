@@ -1,0 +1,67 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Biblioteca">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-primary mb-6">Biblioteca</h1>
+    
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Horario de Atención</h2>
+        <ul class="space-y-2">
+          <li><strong>Lunes a Viernes:</strong> 8:00 - 18:00</li>
+          <li><strong>Sábados:</strong> 9:00 - 13:00</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Servicios</h2>
+        <ul class="space-y-2">
+          <li>• Préstamo de libros</li>
+          <li>• Sala de lectura</li>
+          <li>• Computadoras con internet</li>
+          <li>• Asesoramiento bibliográfico</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Colección</h2>
+        <ul class="space-y-2">
+          <li>• Literatura universal</li>
+          <li>• Textos académicos</li>
+          <li>• Material de referencia</li>
+          <li>• Revistas especializadas</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Reglamento</h2>
+        <ul class="space-y-2">
+          <li>• Carné de biblioteca obligatorio</li>
+          <li>• Préstamos por 7 días renovables</li>
+          <li>• Máximo 3 libros por estudiante</li>
+          <li>• Silencio en sala de lectura</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 bg-white shadow-lg rounded-lg p-6">
+      <h2 class="text-2xl font-semibold mb-4">Novedades Bibliográficas</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="border rounded p-4">
+          <h3 class="font-semibold">Literatura</h3>
+          <p class="text-sm text-gray-600">Nuevas adquisiciones de clásicos universales y literatura contemporánea.</p>
+        </div>
+        <div class="border rounded p-4">
+          <h3 class="font-semibold">Ciencias</h3>
+          <p class="text-sm text-gray-600">Actualización de textos de física, química y biología.</p>
+        </div>
+        <div class="border rounded p-4">
+          <h3 class="font-semibold">Historia</h3>
+          <p class="text-sm text-gray-600">Nueva colección de historia nacional y universal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
